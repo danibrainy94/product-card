@@ -184,65 +184,6 @@ nav {
 media queries
 ********************************************************************************************************/
 
-@media (max-width: 1200px) {
-    .container {
-        height: 55em;
-    }
-    .wrapper {
-        height: 100%;
-        
-    }   
-    nav {
-        margin:0 5em;
-    }
-    .logo {
-        margin-left: 2em;
-    }
-    .vertical-navbar {
-    
-        height: 47em;
-    }
-    .product-area {
-        width: 37em;
-        max-width: 100%;
-        height: 30em;
-        min-width: 20em;
-    }
-    .product-wrapper {
-        flex-direction: column;
-        /* align-items: center; */
-    }
-    .info-boxes-wrapper {
-        display: flex;
-        flex-direction: row;
-    }
-    .info-boxes {
-        bottom: 0;
-        margin: 1em 0;
-    }
-    .info-box-1 {
-        height: 12em;
-        width: 13em;
-        margin-right: 1em;
-    }
-    .info-box-2 {
-        width: 23em;
-        height: 12em;
-        flex-direction: row;
-        margin-right: 1em;
-    }
-    .info-box-1 h2 {
-        width: 8em;
-    }
-    .info-box-2 p {
-        width: 9em;
-    }
-    #product-image {
-        width: 39em;
-        height: 30em;
-    }
-    
-}
 
 
     .vertical-nav-container {
