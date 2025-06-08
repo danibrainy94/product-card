@@ -1,0 +1,40 @@
+:root {
+    --wrapper-bg:#191718;
+    --text-color:#f9f9f9;
+    --outline-color: #f9f6f6;
+    --hover-color: #191718;
+    --product-bg: #020203;
+    --product-bg-trans: #020203b7;
+    --vert-hover-color: #191718;
+    --bg-shadow: #373333;
+    --vert-nav-bg: #020203;
+    --dark-mode-text: #020203;
+    --dark-mode-bg: #f9f9f6;
+    --bg-gradient-1: linear-gradient(90deg, rgb(40, 40, 40) 0%, rgba(71, 71, 68, 1) 100%);
+    --bg-gradient-2: linear-gradient(90deg, #373333  20%, #63625f 80%);
+
+}
+
+.light-mode {
+    --wrapper-bg:#f9f6f6;
+    --text-color: #020203;
+    --outline-color: #020203;
+    --hover-color: #f9f6f6;
+    --product-bg: #e7e4e4;
+    --product-bg-trans: #d6d3d37d;
+    --vert-nav-bg: #e7e4e4;
+    --vert-hover-color: #f9f6f6;
+    --dark-mode-text: #f9f9f9;
+    --dark-mode-bg: #020203;
+    --bg-gradient-1: linear-gradient(90deg, rgb(97, 93, 93) 0%, rgb(92, 92, 85) 100%);
+    --bg-gradient-2: linear-gradient(90deg, #464141  20%, #626261 80%);
+} 
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    /* border: 2px solid green; */
+}

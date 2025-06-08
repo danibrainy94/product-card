@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logitech</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <link href='https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <nav>
+                <ul class="nav-container">
+                    <li class="nav-icons">Home</li>
+                    <li class="nav-icons">Products</li>
+                    <li class="nav-icons">Info</li>
+                </ul>
+                <span class="logo">Logitech</span>
+            </nav>
+            
+            <section class="vertical-navbar">
+                <ul class="vertical-nav-container">
+                    <li class="vertical-nav-icon"><a href=""><i class='bxl bx-gumroad' style="font-size: 48px;"></i></a></li>
+                    <li class="vertical-nav-icon"><a href=""><i id="vert-icons" class='bx bx-home'></i></a></li>
+                    <li class="vertical-nav-icon"><a href=""><i id="vert-icons" class='bx bx-search'></i></a></li>
+                    <li class="vertical-nav-icon"><a href=""><i id="vert-icons" class='bx bx-user'></i></a></li>
+                    <li class="vertical-nav-icon"><a href=""><i id="vert-icons" class="bx bx-arrow-left-stroke-circle" style="font-size: 38px;"></i></a></li>
+                    <li class="vertical-nav-icon"><a href=""><i id="vert-icons" class='bx  bx-bar-chart'  ></i> </a></li>
+                    <li class="vertical-nav-icon"><a href=""><i id="vert-icons" class='bx bx-radio-circle-marked'></i></a></li>
+                    <li class="vertical-nav-icon last-icon"><a href=""><i id="vert-icons" class='bx  bx-polygon'  ></i> </a></li>
+
+                
+                </ul>
+            </section>
+            <main class="product-wrapper">
+                <section class="product-area">
+                    <img id="product-image" src="z150-gallery-white-1.png" alt="product image">
+                    <span class="product-info">
+                        <h2 class="product-name">Z150 stereo speakers</h2>
+                        <span class="star"><i class='bx  bxs-star'></i><i class='bx  bxs-star'></i><i class='bx  bxs-star'></i><i class='bx  bxs-star'></i><i class='bx  bxs-star-half'></i></span>
+                        <p class="product-details">Logitech Z150 speakers deliver clear stereo sound with a compact design that fits easily on your desk.</p>
+                        <button class=" product-btns price">$49.99</button>
+                        <button class=" product-btns cart">Add to cart</button>
+                    </span>
+                </section>
+
+                <section class="info-boxes-wrapper">
+                    <section class="info-boxes info-box-1">
+                        <h1>clear stereo sound</h1>
+                        <p>full stereo sound tuned <br> to assokes</p>
+                        <img src="wave222.png" alt="" id="box-img">
+                    </section>
+
+                    <section class="info-boxes info-box-2">
+                        <i class='bx  bx-microphone' ></i> 
+                        <div class="bar">
+                            <progress value="75" min="0" max="100" style="visibility:hidden;height:0;width:0;"></progress>
+                        </div>
+                        <div>
+                            <h1>easy controls</h1>
+                            <p>convinient controls on the right speaker</p>
+                        </div>
+                    </section>
+                    
+                </section>
+
+                
+            </main> 
+        </div>
+
+    </div>
+
+    <div class="toggle-btn-container">
+        <button class="toggle-buttons light" id="toggle-light"><i class='bx  bx-brightness bx-rotate-270 bx-flip-vertical'  ></i> </button>
+        <button class="toggle-buttons dark" id="toggle-dark"><i class='bx  bx-moon-star bx-rotate-270 bx-flip-vertical'  ></i> </button>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
