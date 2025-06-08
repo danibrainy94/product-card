@@ -131,7 +131,7 @@ ul, li, a {
     position: relative;
     animation: items-slide2 2s ease forwards;
     transition: all 1s ease;
-    /* display: none; */
+    display: none;
 }
 
 #vert-icons {
