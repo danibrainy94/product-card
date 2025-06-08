@@ -438,7 +438,7 @@ p {
     }
 
     .vertical-navbar {
-        display: block;
+        /* display: block; */
         height: 47em;
     }
     .product-area {
