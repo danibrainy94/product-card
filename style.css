@@ -281,7 +281,50 @@ p {
 
 .hidden {
     display: none;
+
 }
+
+
+
+.toggle-btn-container {
+    margin: 2em 0;
+}
+
+.toggle-buttons {
+    
+    background-color: var(--dark-mode-bg);
+    margin-right: 1em;
+    /* display: inline-block; */
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    display: inline-block;
+    padding: .4em;
+    font-size: 1em;
+    border-radius: 30px;
+    transition: all 1s ease;
+}
+
+.toggle-buttons:hover {
+    background-color: var(--dark-mode-bg);
+    color: var(--text-color);
+    transform: scale(1.05);
+    box-shadow: 0 0 10px var(--bg-shadow);
+    outline: 1px solid var(--dark-mode-text);
+    transition: all .5s ease;
+}
+
+.bx-brightness,.bx-moon-star {
+    font-size: 1.4em;
+    background-color: var(--dark-mode-bg);
+    width: 40px;
+    color: var(--dark-mode-text);
+    
+} 
+#toggle-dark {
+    display: none;
+}
+
 
 
 /* hover effects, icons animation and navbar animations */
