@@ -38,3 +38,236 @@
     box-sizing: border-box;
     /* border: 2px solid green; */
 }
+
+body {
+    display: flex;
+    background: var(--bg-gradient-1);
+    font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    margin: .5em;
+    width: 25em;
+    max-width: 100%;
+    background: var(--bg-gradient-2);
+    border-radius: 50px;
+    transition: all 1s ease;
+    animation: window-animate 1s ease forwards;
+    box-shadow: 12px 12px 20px var(--bg-shadow);
+    padding: 1em;
+}
+
+.wrapper {
+    height: 40em;
+    background: var(--wrapper-bg);
+    border-radius: 30px;
+    display: flex;
+}
+
+nav {
+    display: inline-block;
+    display: flex;
+    justify-content: space-evenly;
+    padding: .5em 1em ;
+    position: absolute;
+
+}
+.nav-container {
+    display: flex;
+    /* justify-content: space-between; */
+
+    color: var(--text-color);
+    
+}
+.logo {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5em;
+    color: var(--text-color);
+    letter-spacing: 5px;
+
+}
+
+.nav-icons {
+    height: 30px;
+    background-color: var(--product-bg);
+    display: inline-block;
+    font-size: .7em;
+    text-align: center;
+    margin: 0 .7em;
+    padding: .6em .8em;
+    box-shadow: 2px 1px 5px var(--bg-shadow);
+    border-radius: 30px;
+    outline: 1px solid var(--outline-color);
+    border: 1px solid var(--outline-color); 
+    outline-offset: 0px;
+    animation: outline-animate2 1s ease forwards;
+    transition: all 1s ease;
+}
+
+ul, li, a {
+    list-style-type: none;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.vertical-nav-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-around;
+    
+}
+
+
+.vertical-navbar {
+    background-color: var(--vert-nav-bg);
+    width: 3em;
+    max-height: 74vh;
+    border-radius: 30px;
+    display: inline-block;
+    margin: .5em;
+    position: relative;
+    animation: items-slide2 2s ease forwards;
+    transition: all 1s ease;
+    display: none;
+}
+
+#vert-icons {
+    font-size: 24px;
+    color: var(--text-color);
+}
+.bxl {
+    font-size: 48px;
+    color: var(--text-color);
+}
+.mid-icon {
+    width: 60px;
+} .last-icon {
+    margin-top: 40px;
+}
+
+.product-wrapper {
+    margin: 4em 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-area {
+    width: 21em;
+    height: 20em;
+    display: inline-block;
+    background-color: var(--product-bg);
+    border-radius: 30px;
+}
+
+#product-image {
+    display: inline-block;
+    width: 21em;
+    max-width: 100%;
+    animation: image-scale2 1s ease forwards;
+    transition: all .5s ease;
+}
+
+.product-info {
+    color: var(--text-color);
+    /* background-color: var(--product-bg-trans); */
+    background-color: white;
+    width: 15em;
+    height: 10em;
+    position: relative;
+    bottom: 35%;
+    border-radius:0 30px 0 30px;
+    padding: .2em .6em;
+    transform: scale(0);
+    transition: all 1s ease;
+    animation: display-off 1s ease forwards;
+    display: none;
+}
+
+.star {
+    display: inline-block;
+    margin: .2em 0;
+}
+.product-info p {
+    margin: .2em;
+}
+/* 
+.product-btns {
+    margin: 1em .5em;
+    display: inline-block;
+    padding: .4em 1.2em;
+    font-size: .8em;
+    font-weight: 600;
+    border-radius: 30px;
+}
+
+
+.bx-star {
+    color: var(--text-color);
+}
+
+.cart {
+    border: 2px solid var(--text-color);
+    /* background-color: var(--product-bg-trans); */
+    /* color: var(--text-color); */
+    animation: outline-animate2 1s ease forwards;
+    transition: all 1s ease;
+}
+ */
+
+h1 {
+    width: 10vw;
+    font-size: 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+p {
+    margin-top: 1em;
+    font-size: .7em;
+}
+
+#box-img {
+    width: 6em;
+    object-position: cover;
+    /* position: relative; */
+    /* bottom: 40%; */
+
+}
+
+.info-boxes-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 1em 0;
+}
+
+.info-boxes {
+    background-color: var(--product-bg);
+    color: var(--text-color);
+    border-radius: 25px;
+    position: relative;
+    padding: 1em;
+    animation: items-slide 2s ease forwards;
+    transition: all 1s ease;
+}
+
+
+.info-box-1 {
+    height: 8em;
+    margin-bottom: 1em ;
+}
+
+.info-box-2 {
+    height: 12em;
+    display: flex;
+    flex-direction: row;
+}
+
+.bar {
+    margin: 0 1em;
+    width: 6em;
+    height: 6em;
+    background: radial-gradient(closest-side, var(--product-bg) 90%, transparent 20% 100% ), conic-gradient(var(--text-color) 55%, var(--vert-hover-color) 90%);
+    border-radius: 50%;
+}
