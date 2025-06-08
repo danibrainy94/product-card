@@ -436,6 +436,7 @@ p {
     .container {
         height: 55em;
         width: 41em;
+        margin: 2em auto;
     }
     .wrapper {
         height: 100%;
@@ -520,4 +521,29 @@ p {
     font-weight: 600;
     border-radius: 30px;
 }
+}
+
+@media (min-width: 700px) {
+    .container {
+        width: 63em;
+        height: 35em;
+    }
+    .product-area {
+        width: 41em;
+        height: 28em;
+    }
+    .product-wrapper {
+        flex-direction: row;
+    }
+    .info-boxes-wrapper {
+        flex-direction: column;
+    }
+    .vertical-navbar {
+        height: 31.5em;
+    }
+    .info-boxes {
+        
+    }
+
+
 }
