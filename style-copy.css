@@ -89,16 +89,7 @@ nav {
 
 }
 
-#vert-icons:hover {
-    transform: scale(1.3);
-    /* padding: .05em 0; */
-    text-align: center;
-    width: 45px;
-    /* width: 90px; */
-    transition: all .5s ease;
-    background-color: var(--vert-hover-color);
-    /* border-radius: 10px; */
-}
+
 
 
 
