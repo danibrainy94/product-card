@@ -239,7 +239,7 @@ p {
 .info-boxes-wrapper {
     display: flex;
     flex-direction: column;
-    margin: 1em 0;
+    /* margin: 1em 0; */
 }
 
 .info-boxes {
@@ -525,8 +525,12 @@ p {
 
 @media (min-width: 700px) {
     .container {
-        width: 63em;
+        width: 61em;
         height: 35em;
+    }
+    .logo {
+        font-size: 2em;
+        margin-left: 3em;
     }
     .product-area {
         width: 41em;
@@ -537,13 +541,33 @@ p {
     }
     .info-boxes-wrapper {
         flex-direction: column;
+        margin: 0 1em;
+        height: 100%;
     }
     .vertical-navbar {
         height: 31.5em;
     }
-    .info-boxes {
-        
+    .info-boxes-wrapper {
+        margin: 0 1em;
+        height: 28em;
     }
+    .info-boxes {
+        width: 10em;
+        margin: 0 0;
+    }
+    .info-box-1 {
+        margin-bottom: 1em;
+    }
+    .info-box-2 {
+        flex-direction: column;
+        height: 100%;
+    }
+    .bar {
+        width: 6em;
+        height: 6em;
+        margin-bottom: 1em;
+    }
+    
 
 
 }
